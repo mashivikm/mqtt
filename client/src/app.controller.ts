@@ -23,6 +23,6 @@ export class AppController {
   }
   @Get('process')
   getProcessClientData() {
-    return this.client.send('process_channel', 'Ashu');
+    return this.client.send('process_channel', 'Mayank');
   }
 }
